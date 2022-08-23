@@ -7,4 +7,4 @@ CREATE TABLE posts (
     content TEXT NOT NULL
 );
 
-INSERT INTO posts (id, title, content) VALUES (1, "Welcome", "If you can see this and your name is Will/Matt/Ryan/Drake you are on the right track");
+INSERT INTO posts (id, title, content) VALUES (1, "Welcome", "If you can see this and your name is $NAME you are on the right track");
